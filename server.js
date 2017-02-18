@@ -8,15 +8,15 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/personaldetails',function(req,res)
+app.get('/Personal-details',function(req,res)
 {
     res.send("Personal details are served here!");
 });
-app.get('/academicdetails',function(req,res)
+app.get('/Academic-details',function(req,res)
 {
     res.send("Academic details are served here!");
 });
-app.get('/otherdetails',function(req,res)
+app.get('/Other-details',function(req,res)
 {
     res.send("Other details are served here!");
 });
