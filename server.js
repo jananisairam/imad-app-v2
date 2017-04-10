@@ -18,7 +18,7 @@ app.get('/Academic_details',function(req,res)
 });
 app.get('/Other_details',function(req,res)
 {
-    res.send("Other details are served here!");
+   res.sendFile(path.join(__dirname, 'ui', 'Other_details.html'));  
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
