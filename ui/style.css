@@ -53,6 +53,10 @@ html {
   margin-right: 10px;
 
 }
+.container {
+  display: flex;
+}
+
 
 .bold {
     font-weight: bold;
