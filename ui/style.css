@@ -110,13 +110,13 @@ video {
   min-width: 75%;
 }
 
-#nav {
+.nav {
   background-color: lightgrey;
   max-width: 25%;
   min-width: 140px;
   flex: 1;
 }
 
-#nav {
-  padding-left: 25px;
+.nav {
+  padding-left: 40px;
 }
